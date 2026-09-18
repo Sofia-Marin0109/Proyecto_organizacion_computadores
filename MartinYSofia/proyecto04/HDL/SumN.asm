@@ -1,0 +1,36 @@
+@sum
+M=0
+@i
+M=0
+D=M
+@R0
+D=D-M
+@STOP
+D;JEQ
+
+(LOOP)
+    @i
+    D=M
+    @sum
+    M=D+M
+    @i
+    D=M
+    @R0
+    D=M-D
+    @STOP
+    D;JEQ
+    @i
+    M=M+1
+    @LOOP
+    0;JMP
+
+(STOP)
+    @sum
+    D=M
+    @R1
+    M=D
+    @END
+    0;JMP
+(END)
+@END
+0;JMP
