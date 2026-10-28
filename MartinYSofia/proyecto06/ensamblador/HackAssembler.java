@@ -125,7 +125,7 @@ public class HackAssembler {
     private static void reportError(int lineNumber, String message, String outputFilePath) {
         //para mantener un formato sin importar la consola
         PrintStream out = new PrintStream(System.out, true, StandardCharsets.UTF_8);
-        out.println("ERROR *** L\u00EDnea " + lineNumber + ": " + message); //asegura la tilde y el formato exacto
+        out.println("ERROR *** Línea " + lineNumber + ": " + message); //asegura la tilde y el formato exacto
         new File(outputFilePath).delete(); // por si quedo un .hack de una ejecucion anterior
         System.exit(1);
     }
