@@ -1,0 +1,110 @@
+// Juego.jack - Control del juego: menú, bucle de la carrera y teclado.
+// La lógica está en Carrera y el dibujo en Vista.
+// Autor: Sofía Marín Bustamante 
+
+class Juego {
+    field Vista vista;
+    field Carrera carrera;
+    field boolean salir;
+    field int semilla;
+
+    // crea la vista una sola vez; cada partida crea su propia carrera
+    constructor Juego new() {
+        let vista = Vista.new();
+        let salir = false;
+        let semilla = 1;
+        return this;
+    }
+
+    // libera la vista y el juego (cada carrera ya se liberó al terminar su partida)
+    method void dispose() {
+        do vista.dispose();
+        do Memory.deAlloc(this);
+        return;
+    }
+
+    // muestra el menú y juega partidas hasta que el jugador presione ESC
+    method void ejecutar() {
+        var int pasos;
+        while (~salir) {
+            let pasos = elegirDistancia();
+            if (pasos > 0) { do jugar(pasos); }
+        }
+        return;
+    }
+
+    // espera la elección en el menú; retorna los pasos de la meta, o 0 si se presionó ESC
+    method int elegirDistancia() {
+        var char tecla;
+        do vista.mostrarMenu();
+        while (true) {
+            let tecla = Keyboard.keyPressed();
+            // la semilla cambia mientras se espera, así cada partida es distinta
+            let semilla = semilla + 1;
+            if (tecla = 49) { return 100; }
+            if (tecla = 50) { return 200; }
+            if (tecla = 51) { return 300; }
+            if (tecla = 140) {
+                let salir = true;
+                return 0;
+            }
+        }
+        return 0;
+    }
+
+    // juega una carrera hasta ganar o perder, o hasta que se presione R (menú) o ESC (salir)
+    method void jugar(int pasos) {
+        var char tecla, teclaAnt;
+        var boolean pausa, terminar;
+        let carrera = Carrera.new(pasos, semilla);
+        do vista.dibujarVia(carrera);
+        do vista.pintarEntidades(carrera, true);
+        let teclaAnt = 0;
+        let pausa = false;
+        let terminar = false;
+        while ((carrera.estado() = 0) & (~terminar)) {
+            let tecla = Keyboard.keyPressed();
+            // solo cuenta cuando la tecla cambia: dejarla presionada no repite la acción
+            if (~(tecla = teclaAnt)) {
+                if ((tecla = 131) & (~pausa)) { do carrera.moverCarro(-1); }
+                if ((tecla = 133) & (~pausa)) { do carrera.moverCarro(1); }
+                if (tecla = 80) {
+                    let pausa = ~pausa;
+                    do vista.mostrarPausa(pausa);
+                }
+                if (tecla = 82) { let terminar = true; }
+                if (tecla = 140) { let terminar = true; let salir = true; }
+            }
+            let teclaAnt = tecla;
+            if ((~pausa) & (~terminar)) { do jugarPaso(); }
+        }
+        if (~terminar) { do esperarFinal(); }
+        do carrera.dispose();
+        let carrera = null;
+        return;
+    }
+
+    // un paso en pantalla: borra lo anterior, avanza la lógica, genera y vuelve a dibujar
+    method void jugarPaso() {
+        do vista.pintarEntidades(carrera, false);
+        do carrera.avanzar();
+        do carrera.generar();
+        do vista.pintarEntidades(carrera, true);
+        do vista.animarLineas();
+        do vista.dibujarMarcador(carrera);
+        do Sys.wait(50);
+        return;
+    }
+
+    // muestra el resultado y espera R (volver al menú) o ESC (salir)
+    method void esperarFinal() {
+        var char tecla;
+        do vista.mostrarFin(carrera);
+        let tecla = 0;
+        while (~((tecla = 82) | (tecla = 140))) {
+            let tecla = Keyboard.keyPressed();
+        }
+        if (tecla = 140) { let salir = true; }
+        return;
+    }
+}

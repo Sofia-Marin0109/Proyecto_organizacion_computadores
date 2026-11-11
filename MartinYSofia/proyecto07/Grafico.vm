@@ -1,0 +1,161 @@
+// Grafico.vm - Rutinas gráficas escritas a mano en lenguaje VM (sección 9 y bonos)
+// Autor: Martín Quijano Hoyos
+
+// calcula la dirección de la línea 0 de la celda: 16384 + fila*512 + col
+// la multiplicación por 512 se hace sumando 512 una vez por cada fila
+// argument 0 = fila, argument 1 = col, local 0 = dirección
+function Grafico.direccion 1
+push constant 16384
+push argument 1
+add
+pop local 0
+label SUMAR_FILA
+push argument 0
+push constant 0
+eq
+if-goto FIN_SUMA
+push local 0
+push constant 512
+add
+pop local 0
+push argument 0
+push constant 1
+sub
+pop argument 0
+goto SUMAR_FILA
+label FIN_SUMA
+push local 0
+return
+
+// copia las 16 líneas del sprite en la celda (fila, col): RAM[dir + k*32] = sprite[k]
+// argument 0 = fila, argument 1 = col, argument 2 = sprite
+// local 0 = k, local 1 = dirección de la línea k en la pantalla
+function Grafico.dibujarCelda 2
+push argument 0
+push argument 1
+call Grafico.direccion 2
+pop local 1
+push constant 0
+pop local 0
+label LINEA_SPRITE
+push local 0
+push constant 16
+lt
+not
+if-goto FIN_SPRITE
+push argument 2
+push local 0
+add
+pop pointer 1
+push that 0
+push local 1
+pop pointer 1
+pop that 0
+push local 0
+push constant 1
+add
+pop local 0
+push local 1
+push constant 32
+add
+pop local 1
+goto LINEA_SPRITE
+label FIN_SPRITE
+push constant 0
+return
+
+// pone en 0 las 16 palabras de la celda (fila, col) (bono +0.10)
+// argument 0 = fila, argument 1 = col
+// local 0 = líneas que faltan, local 1 = dirección de la línea actual
+function Grafico.borrarCelda 2
+push argument 0
+push argument 1
+call Grafico.direccion 2
+pop local 1
+push constant 16
+pop local 0
+label LINEA_BORRAR
+push local 0
+push constant 0
+eq
+if-goto FIN_BORRAR
+push local 1
+pop pointer 1
+push constant 0
+pop that 0
+push local 1
+push constant 32
+add
+pop local 1
+push local 0
+push constant 1
+sub
+pop local 0
+goto LINEA_BORRAR
+label FIN_BORRAR
+push constant 0
+return
+
+// rota las 16 líneas de una fila de celdas una palabra a la izquierda (bono +0.20)
+// argument 0 = fila
+// local 0 = dirección de la línea actual, local 1 = línea k
+function Grafico.desplazarFila 2
+push argument 0
+push constant 0
+call Grafico.direccion 2
+pop local 0
+push constant 0
+pop local 1
+label LINEA_ROTAR
+push local 1
+push constant 16
+eq
+if-goto FIN_ROTAR
+push local 0
+call Grafico.rotarLinea 1
+pop temp 0
+push local 0
+push constant 32
+add
+pop local 0
+push local 1
+push constant 1
+add
+pop local 1
+goto LINEA_ROTAR
+label FIN_ROTAR
+push constant 0
+return
+
+// rota una línea de 32 palabras que empieza en argument 0: w[c] = w[c+1] y w[31] = w[0]
+// local 0 = c, local 1 = copia de w[0]
+function Grafico.rotarLinea 2
+push argument 0
+pop pointer 1
+push that 0
+pop local 1
+push constant 0
+pop local 0
+label PALABRA
+push local 0
+push constant 31
+eq
+if-goto ULTIMA
+push argument 0
+push local 0
+add
+pop pointer 1
+push that 1
+pop that 0
+push local 0
+push constant 1
+add
+pop local 0
+goto PALABRA
+label ULTIMA
+push argument 0
+pop pointer 1
+push local 1
+pop that 31
+push constant 0
+return

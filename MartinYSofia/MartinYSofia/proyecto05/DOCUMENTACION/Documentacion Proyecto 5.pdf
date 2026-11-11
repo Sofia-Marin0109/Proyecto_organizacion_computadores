@@ -1,0 +1,2495 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 10 0 R 13 0 R 19 0 R 22 0 R 25 0 R 28 0 R 31 0 R 34 0 R 37 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6076
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 763.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 170.1288 0 Td (Documentaci\363n) Tj T* -170.1288 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 734.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Organizaci\363n de computadores.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 720.8898 cm
+Q
+q
+1 0 0 1 60 698.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 187.1298 0 Td (Memory.hdl) Tj T* -187.1298 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 624.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 49.5 Tm /F1 10.5 Tf 15 TL (Para hacer este chip se tuvo primero que tener claro la teor\355a de la memoria principal del Hack.Esta) Tj T* (teor\355a nos dice que memory Act\372a como una interfaz unificada para acceder a RAM16K, Screen y) Tj T* -0.141161 Tw (Keyboard mediante una direcci\363n global de 15 bits, Por tanto existen 2^15 = 32768 direcciones, desde) Tj T* 0 Tw (0 hasta 32767. Gracias a esta informaci\363n podemos saber el siguiente mapa de memoria:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 117.6378 528.8898 cm
+q
+.827451 .827451 .827451 rg
+n 0 88 360 -22 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (RANGO DE BITS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 186 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (UNIDAD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0 \226 16383) Tj T* ET
+Q
+Q
+q
+1 0 0 1 186 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (RAM16K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (16384 \226 24575) Tj T* ET
+Q
+Q
+q
+1 0 0 1 186 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (Screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (24576) Tj T* ET
+Q
+Q
+q
+1 0 0 1 186 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (Keyboard) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 88 m 360 88 l S
+n 0 0 m 360 0 l S
+n 0 0 m 0 88 l S
+n 360 0 m 360 88 l S
+n 0 66 m 360 66 l S
+n 0 44 m 360 44 l S
+n 0 22 m 360 22 l S
+n 180 0 m 180 88 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 516.8898 cm
+Q
+q
+1 0 0 1 60 501.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (-RAM16K contiene 16384 \(2^14\) posiciones, por lo que necesita 14 bits de direcci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (-Screen contiene 8192 \(2^13\) posiciones, por lo que necesita 13 bits de direcci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (-Keyboard se trata como un \372nico registro de lectura.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Sabiendo que Memory recibe:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (- in[16]: dato que se desea escribir.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (- load: indica si se debe escribir.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (- address[15]: direcci\363n global.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Memory entrega:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (- out[16]: dato le\355do.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Podemos inferir que la combinaci\363n de los \372ltimos 2 bits de address \(address[13] y address[14]\)) Tj T* (representar\341 los siguientes intervalos de memoria:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 87.6378 191.8898 cm
+q
+.827451 .827451 .827451 rg
+n 0 110 420 -22 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Address[14]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Address[13]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (INTERVALO DE MEMORIA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0 a 8191) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (8192 a 16383) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (16384 a 24575) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (24576 a 32767) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 110 m 420 110 l S
+n 0 0 m 420 0 l S
+n 0 0 m 0 110 l S
+n 420 0 m 420 110 l S
+n 0 88 m 420 88 l S
+n 0 66 m 420 66 l S
+n 0 44 m 420 44 l S
+n 0 22 m 420 22 l S
+n 120 0 m 120 110 l S
+n 240 0 m 240 110 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 179.8898 cm
+Q
+q
+1 0 0 1 60 149.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Para poder procesar estos datos de entrada y saber c\363mo memory decidir\341 si accede a) Tj T* (RAM16K,Screen o Keyboard se necesita saber la teor\355a del Mux y DMux.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Por la teor\355a anteriormente explicada sabemos que Memory sabr\341 acceder a que unidad mediante los) Tj T* (\372ltimos 2 bits de address. Con la siguiente tabla podremos evidenciar las combinaciones posibles de) Tj T* (esos 2 bits y que combinaci\363n representa que unidad:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 1) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 12 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 7182
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 87.6378 675.8898 cm
+q
+.827451 .827451 .827451 rg
+n 0 110 420 -22 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Address[14]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Address[13]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Unidad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (RAM16K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (RAM16K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (Screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (Keyboard) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 110 m 420 110 l S
+n 0 0 m 420 0 l S
+n 0 0 m 0 110 l S
+n 420 0 m 420 110 l S
+n 0 88 m 420 88 l S
+n 0 66 m 420 66 l S
+n 0 44 m 420 44 l S
+n 0 22 m 420 22 l S
+n 120 0 m 120 110 l S
+n 240 0 m 240 110 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 663.8898 cm
+Q
+q
+1 0 0 1 60 633.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL -0.107744 Tw (Con esta tabla podemos evidenciar que con address[14] podemos filtrar si Memory accede a RAM16K) Tj T* 0 Tw (o no. Esto nos sirve para poder hacer el primer DMux:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614.8898 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (DMux\(in=load , sel=address[14] , a=a1 , b=loadrest \);) Tj T* ET
+Q
+q
+1 0 0 1 60 589.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (La variable a1 representar\341 el load de RAM16K y loadrest servir\341 para el otro DMux.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Despues de hacer ese primer DMux podemos evidenciar que el address[13] nos ayuda a distinguir si) Tj T* (Memory accede a Screen si es 0 o a Keyboard si es 1. Esto significa que con la informaci\363n anterior) Tj T* (podemos inferir el siguiente DMux:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517.8898 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (DMux\(in=loadrest , sel=address[13] , a=b1 , b=c1 \);) Tj T* ET
+Q
+q
+1 0 0 1 60 492.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Representando las variables b1 el load de Screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 462.8898 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 13.8 Tm /F3 8.2 Tf 11 TL (Screen\(in=in , load=b1 , address=address[0..12],out=o1 \);) Tj T* (RAM16K\(in=in ,load=a1 , address[0]=address[0..13], out=o2 \);) Tj T* ET
+Q
+q
+1 0 0 1 60 392.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 49.5 Tm /F1 10.5 Tf 15 TL (Aqu\355 es mas que trivial entender la llamada de cada una de las unidades.Lo \372nico que vale la pena) Tj T* (recalcar la cantidad de bits de addresss[0\205i] que se le ingresa a cada una de las unidades. A Screen) Tj T* (solo se le ingresan 13 bits debido a que este contiene 2^13 posiciones en memoria. A RAM16K se le) Tj T* (ingresan 14 bits debido a que este contiene 2^14 posiciones en memoria.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Podemos evidenciar que el Keyboard no tiene ning\372n dato de entrada:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350.8898 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (Keyboard\(out=o3 \);) Tj T* ET
+Q
+q
+1 0 0 1 60 295.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Esto es debido a que keyboard no necesita niguna direcci\363n interna debido a que se utiliza) Tj T* (principalmente para lectura.Lo que implica que siempre dar\341 una salida, solo que nosotros la) Tj T* (\223dejaremos pasar\224 con un Mux.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Luego de tener todas estas unidades definidas , Memory solo tiene una salida, as\355 que debe de saber) Tj T* (cual dejar pasar. Esto lo haremos con un Mux16.Para el Mux16 usasremos la misma teor\355a que los) Tj T* (dos DMux del inicio:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 87.6378 124.8898 cm
+q
+.827451 .827451 .827451 rg
+n 0 110 420 -22 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Address[14]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (Address[13]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 206 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (ENTRADA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 306 93.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9 Tf 11 TL (UNIDAD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 206 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 306 71.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (RAM16K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 206 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (B) Tj T* ET
+Q
+Q
+q
+1 0 0 1 306 49.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (RAM16K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 206 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (C) Tj T* ET
+Q
+Q
+q
+1 0 0 1 306 27.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (Screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 206 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (D) Tj T* ET
+Q
+Q
+q
+1 0 0 1 306 5.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 9 Tf 11 TL (Keyboard) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 110 m 420 110 l S
+n 0 0 m 420 0 l S
+n 0 0 m 0 110 l S
+n 420 0 m 420 110 l S
+n 0 88 m 420 88 l S
+n 0 66 m 420 66 l S
+n 0 44 m 420 44 l S
+n 0 22 m 420 22 l S
+n 100 0 m 100 110 l S
+n 200 0 m 200 110 l S
+n 300 0 m 300 110 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 112.8898 cm
+Q
+q
+1 0 0 1 60 82.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (As\355 con los 2 ultimos bits de address sabremos Memory a que unidad debe de ingresar y que salida) Tj T* (debe de dar.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 2) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 16 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 5748
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 1) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 768.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 175.9398 0 Td (Documentaci\363n) Tj T* -175.9398 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 737.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Organizaci\363n de computadores.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 707.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 139.9398 0 Td (CPU.hdl y Computer.hdl) Tj T* -139.9398 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 674.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (CPU.hdl) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 591.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 64.5 Tm /F1 10.5 Tf 15 TL (Para hacer este chip se tuvo primero que tener clara la teor\355a de funcionamiento de la CPU Hack. A) Tj T* (diferencia de Memory, donde el problema principal era decidir a qu\351 unidad de memoria acceder, en) Tj T* (CPU el problema consiste en interpretar una instrucci\363n de 16 bits, ejecutar la operaci\363n indicada y) Tj T* (decidir qu\351 registros deben almacenar el resultado y cu\341l ser\341 la siguiente instrucci\363n que debe ejecutar) Tj T* (el computador.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 523.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 49.5 Tm /F1 10.5 Tf 15 TL (La CPU recibe tres entradas principales: el dato proveniente de memoria, la instrucci\363n actual y la se\361al) Tj T* (de reset. A partir de estas entradas produce el dato que eventualmente ser\341 escrito en memoria, la) Tj T* (direcci\363n de memoria a la que se apunta, una se\361al que indica si debe escribirse y la direcci\363n de la) Tj T* (siguiente instrucci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 500.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (La interfaz es:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 470.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 13.8 Tm /F3 8.2 Tf 11 TL (IN  inM[16], instruction[16], reset) Tj T* (OUT outM[16], writeM, addressM[15], pc[15]) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 441.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (1. TEOR\315A NECESARIA PARA CONSTRUIR CPU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 403.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (La instrucci\363n Hack tiene 16 bits. El bit instruction[15] permite distinguir los dos tipos de instrucciones) Tj T* (existentes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 65.8113 329.5354 cm
+q
+.827451 .827451 .827451 rg
+n 0 66 463.653 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 52 Tm (instruction[15]) Tj T* ET
+BT 1 0 0 1 80.505 52 Tm (Tipo) Tj T* ET
+BT 1 0 0 1 143.013 52 Tm (Funci\363n principal) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 30 Tm (0) Tj T* ET
+BT 1 0 0 1 80.505 30 Tm (A-instruction) Tj T* ET
+BT 1 0 0 1 143.013 30 Tm (Cargar un valor de 15 bits en el registro A) Tj T* ET
+BT 1 0 0 1 6 8 Tm (1) Tj T* ET
+BT 1 0 0 1 80.505 8 Tm (C-instruction) Tj T* ET
+BT 1 0 0 1 143.013 8 Tm (Realizar una operaci\363n del ALU y, opcionalmente, guardar el resultado o saltar) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 66 m 463.653 66 l S
+n 0 0 m 463.653 0 l S
+n 0 0 m 0 66 l S
+n 463.653 0 m 463.653 66 l S
+n 0 44 m 463.653 44 l S
+n 0 22 m 463.653 22 l S
+n 74.505 0 m 74.505 66 l S
+n 137.013 0 m 137.013 66 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 321.5354 cm
+Q
+q
+1 0 0 1 54.18898 285.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Cuando instruction[15] es 0, los otros 15 bits representan directamente el valor que se cargar\341 en A.) Tj T* (Cuando instruction[15] es 1, los dem\341s bits se interpretan como campos de control de la instrucci\363n C.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 256.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (2. ESTRUCTURA DE UNA C-INSTRUCTION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 233.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (La C-instruction puede dividirse conceptualmente as\355:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 214.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (111 a c1 c2 c3 c4 c5 c6 d1 d2 d3 j1 j2 j3) Tj T* ET
+Q
+q
+1 0 0 1 167.3403 52.53543 cm
+q
+.827451 .827451 .827451 rg
+n 0 154 260.595 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 140 Tm (Bits) Tj T* ET
+BT 1 0 0 1 43.02 140 Tm (Campo) Tj T* ET
+BT 1 0 0 1 85.521 140 Tm (Funci\363n) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 118 Tm (15..13) Tj T* ET
+BT 1 0 0 1 43.02 118 Tm (111) Tj T* ET
+BT 1 0 0 1 85.521 118 Tm (Identifican una C-instruction) Tj T* ET
+BT 1 0 0 1 6 96 Tm (12) Tj T* ET
+BT 1 0 0 1 43.02 96 Tm (a) Tj T* ET
+BT 1 0 0 1 85.521 96 Tm (Selecciona A o M como entrada y del ALU) Tj T* ET
+BT 1 0 0 1 6 74 Tm (11..6) Tj T* ET
+BT 1 0 0 1 43.02 74 Tm (c1..c6) Tj T* ET
+BT 1 0 0 1 85.521 74 Tm (Controlan la operaci\363n del ALU) Tj T* ET
+BT 1 0 0 1 6 52 Tm (5) Tj T* ET
+BT 1 0 0 1 43.02 52 Tm (d1) Tj T* ET
+BT 1 0 0 1 85.521 52 Tm (Indica destino A) Tj T* ET
+BT 1 0 0 1 6 30 Tm (4) Tj T* ET
+BT 1 0 0 1 43.02 30 Tm (d2) Tj T* ET
+BT 1 0 0 1 85.521 30 Tm (Indica destino D) Tj T* ET
+BT 1 0 0 1 6 8 Tm (3) Tj T* ET
+BT 1 0 0 1 43.02 8 Tm (d3) Tj T* ET
+BT 1 0 0 1 85.521 8 Tm (Indica destino M) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 154 m 260.595 154 l S
+n 0 0 m 0 154 l S
+n 260.595 0 m 260.595 154 l S
+n 0 0 m 260.595 0 l S
+n 0 132 m 260.595 132 l S
+n 0 110 m 260.595 110 l S
+n 0 88 m 260.595 88 l S
+n 0 66 m 260.595 66 l S
+n 0 44 m 260.595 44 l S
+n 0 22 m 260.595 22 l S
+n 37.02 0 m 37.02 154 l S
+n 79.521 0 m 79.521 154 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+n
+40 733.8898 515.2756 60 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 3) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 21 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4696
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 2) Tj T* ET
+Q
+q
+1 0 0 1 167.3403 746.5354 cm
+q
+.827451 .827451 .827451 rg
+n 0 44 260.595 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 30 Tm (Bits) Tj T* ET
+BT 1 0 0 1 43.02 30 Tm (Campo) Tj T* ET
+BT 1 0 0 1 85.521 30 Tm (Funci\363n) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 8 Tm (2..0) Tj T* ET
+BT 1 0 0 1 43.02 8 Tm (j1..j3) Tj T* ET
+BT 1 0 0 1 85.521 8 Tm (Determinan las condiciones de salto) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 44 m 260.595 44 l S
+n 0 22 m 0 44 l S
+n 0 0 m 0 22 l S
+n 260.595 22 m 260.595 44 l S
+n 260.595 0 m 260.595 22 l S
+n 0 0 m 260.595 0 l S
+n 0 22 m 260.595 22 l S
+n 37.02 22 m 37.02 44 l S
+n 79.521 22 m 79.521 44 l S
+n 37.02 0 m 37.02 22 l S
+n 79.521 0 m 79.521 22 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 738.5354 cm
+Q
+q
+1 0 0 1 54.18898 702.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (El desarrollo de CPU consiste, por tanto, en convertir estos bits de la instrucci\363n en se\361ales que) Tj T* (controlen los diferentes componentes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 673.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (3. REGISTRO A Y CARGA DE A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 620.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (El registro A tiene una funci\363n doble. En una A-instruction almacena el valor contenido en) Tj T* (instruction[14..0]. En una C-instruction puede almacenar el resultado del ALU cuando la instrucci\363n) Tj T* (especifica dest=A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 582.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Para determinar cu\341ndo debe cargarse A se consideran dos situaciones: si la instrucci\363n es una) Tj T* (A-instruction o si es una C-instruction cuyo bit d1 est\341 activado.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 541.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 24.8 Tm /F3 8.2 Tf 11 TL (Not\(in=instruction[15], out=esA\);) Tj T* (And\(a=instruction[15], b=instruction[5], out=esCdestA\);) Tj T* (Or\(a=esA, b=esCdestA, out=loadA\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 503.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (La variable esA representa que instruction[15]=0. esCdestA representa que se trata de una C-instruction) Tj T* (y que d1=1. La uni\363n de ambas condiciones produce loadA.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 474.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (4. MUX PARA LA ENTRADA DEL REGISTRO A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Ahora hay que decidir qu\351 dato entra al registro A. En una A-instruction debe entrar instruction. En una) Tj T* (C-instruction con dest=A debe entrar el resultado del ALU.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 362.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 57.8 Tm /F3 8.2 Tf 11 TL (Mux16\() Tj T* (    a=instruction,) Tj T* (    b=outM,) Tj T* (    sel=instruction[15],) Tj T* (    out=mux1) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 309.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (La selecci\363n sigue la regla del Mux: sel=0 deja pasar a y sel=1 deja pasar b. Por ello una A-instruction) Tj T* (selecciona instruction y una C-instruction selecciona el resultado del ALU. Cuando loadA es 0, el valor) Tj T* (seleccionado por este Mux no modifica A, por lo que su contenido no cambia.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 280.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (5. REGISTRO A Y addressM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 242.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (El registro A tambi\351n determina la direcci\363n de memoria que est\341 siendo utilizada por la CPU. Por eso) Tj T* (su salida se conecta a addressM.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 146.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 79.8 Tm /F3 8.2 Tf 11 TL (ARegister\() Tj T* (    in=mux1,) Tj T* (    load=loadA,) Tj T* (    out=A,) Tj T* (    out[0]=addressM[0],) Tj T* (    ...) Tj T* (    out[14]=addressM[14]) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 108.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Esto significa que addressM no es una direcci\363n calculada independientemente: corresponde al) Tj T* (contenido actual del registro A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 79.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (6. REGISTRO D) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 24 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 4279
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 3) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 745.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL -0.025757 Tw (El registro D almacena resultados intermedios y datos utilizados por el ALU. Solamente se carga cuando) Tj T* 0 Tw (la instrucci\363n es una C-instruction y d2=1. Como d2 corresponde a instruction[4], la se\361al de carga se) Tj T* (obtiene mediante:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 726.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (And\(a=instruction[15], b=instruction[4], out=loadD\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 703.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (El dato que se almacena en D es el resultado del ALU.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 684.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (DRegister\(in=outM, load=loadD, out=D\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 655.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (7. SELECCI\323N ENTRE A Y M PARA EL ALU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 602.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Una de las partes fundamentales de la CPU es determinar qu\351 debe recibir el ALU como entrada y. El) Tj T* (campo a de la C-instruction se encuentra en instruction[12]. Si a=0, el ALU utiliza A. Si a=1, utiliza M, es) Tj T* (decir, el contenido de memoria ubicado en la direcci\363n A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 528.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 57.8 Tm /F3 8.2 Tf 11 TL (Mux16\() Tj T* (    a=A,) Tj T* (    b=inM,) Tj T* (    sel=instruction[12],) Tj T* (    out=mux2) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Esta conexi\363n es especialmente importante porque A e inM no representan lo mismo. A es una) Tj T* (direcci\363n/valor almacenado en el registro A, mientras que inM es el contenido de la memoria en esa) Tj T* (direcci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 446.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (8. ALU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 408.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Una vez seleccionada la entrada y y teniendo D como entrada x, el ALU recibe los seis bits de control) Tj T* (c1..c6.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 257.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 134.8 Tm /F3 8.2 Tf 11 TL (ALU\() Tj T* (    x=D,) Tj T* (    y=mux2,) Tj T* (    zx=instruction[11],) Tj T* (    nx=instruction[10],) Tj T* (    zy=instruction[9],) Tj T* (    ny=instruction[8],) Tj T* (    f=instruction[7],) Tj T* (    no=instruction[6],) Tj T* (    out=outM,) Tj T* (    zr=zr,) Tj T* (    ng=ng) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 219.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (La salida outM representa el resultado de la operaci\363n. Las salidas zr y ng son necesarias) Tj T* (posteriormente para determinar si debe realizarse un salto.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 190.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (9. WRITE M) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 152.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (El bit d3, ubicado en instruction[3], indica si el resultado del ALU debe escribirse en memoria. Como) Tj T* (\372nicamente una C-instruction puede realizar una escritura, se combinan instruction[15] e instruction[3].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 133.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 2.8 Tm /F3 8.2 Tf 11 TL (And\(a=instruction[15], b=instruction[3], out=writeM\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 95.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Cuando writeM=1, el valor outM debe escribirse en la direcci\363n addressM. La CPU no escribe) Tj T* (directamente en Memory: entrega outM, writeM y addressM al chip superior Computer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 66.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (10. L\323GICA DE SALTOS) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 5) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 27 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4610
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 4) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 760.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Los \372ltimos tres bits de una C-instruction determinan si el programa debe saltar a la direcci\363n) Tj T* (almacenada en A. Para decidirlo se utilizan las salidas zr y ng del ALU.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 187.3443 664.5354 cm
+q
+.827451 .827451 .827451 rg
+n 0 88 220.587 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 74 Tm (Bit) Tj T* ET
+BT 1 0 0 1 69.021 74 Tm (Condici\363n) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 52 Tm (instruction[2]) Tj T* ET
+BT 1 0 0 1 69.021 52 Tm (JLT: salto si el resultado es negativo) Tj T* ET
+BT 1 0 0 1 6 30 Tm (instruction[1]) Tj T* ET
+BT 1 0 0 1 69.021 30 Tm (JEQ: salto si el resultado es cero) Tj T* ET
+BT 1 0 0 1 6 8 Tm (instruction[0]) Tj T* ET
+BT 1 0 0 1 69.021 8 Tm (JGT: salto si el resultado es positivo) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 88 m 220.587 88 l S
+n 0 0 m 220.587 0 l S
+n 0 0 m 0 88 l S
+n 220.587 0 m 220.587 88 l S
+n 0 66 m 220.587 66 l S
+n 0 44 m 220.587 44 l S
+n 0 22 m 220.587 22 l S
+n 63.021 0 m 63.021 88 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 656.5354 cm
+Q
+q
+1 0 0 1 54.18898 620.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Un resultado positivo se identifica cuando no es negativo y tampoco es cero. Por eso puede construirse) Tj T* (con NOT, OR y AND.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 480.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 123.8 Tm /F3 8.2 Tf 11 TL (And\(a=instruction[2], b=ng, out=saltoNeg\);) Tj T* (And\(a=instruction[1], b=zr, out=saltoCero\);) Tj T*  T* (Or\(a=ng, b=zr, out=ceroONeg\);) Tj T* (Not\(in=ceroONeg, out=esPositivo\);) Tj T*  T* (And\(a=instruction[0], b=esPositivo, out=saltoPos\);) Tj T*  T* (Or\(a=saltoNeg, b=saltoCero, out=saltoParcial\);) Tj T* (Or\(a=saltoParcial, b=saltoPos, out=saltoTotal\);) Tj T*  T* (And\(a=instruction[15], b=saltoTotal, out=pcLoad\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 442.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (La \372ltima condici\363n incluye instruction[15] para garantizar que la l\363gica de salto solamente afecte a) Tj T* (C-instructions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 413.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (11. FUNCIONAMIENTO DEL PC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 360.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (El Program Counter \(PC\) contiene la direcci\363n de la instrucci\363n que debe ejecutarse. Para comprender) Tj T* (su funcionamiento hay que tener clara la prioridad de sus se\361ales: reset tiene prioridad, despu\351s load y) Tj T* (finalmente inc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210.7263 264.5354 cm
+q
+.827451 .827451 .827451 rg
+n 0 88 173.823 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 74 Tm (Condici\363n) Tj T* ET
+BT 1 0 0 1 107.307 74 Tm (Acci\363n del PC) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 52 Tm (reset=1) Tj T* ET
+BT 1 0 0 1 107.307 52 Tm (PC = 0) Tj T* ET
+BT 1 0 0 1 6 30 Tm (reset=0 y load=1) Tj T* ET
+BT 1 0 0 1 107.307 30 Tm (PC = in) Tj T* ET
+BT 1 0 0 1 6 8 Tm (reset=0, load=0, inc=1) Tj T* ET
+BT 1 0 0 1 107.307 8 Tm (PC = PC + 1) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 88 m 173.823 88 l S
+n 0 0 m 173.823 0 l S
+n 0 0 m 0 88 l S
+n 173.823 0 m 173.823 88 l S
+n 0 66 m 173.823 66 l S
+n 0 44 m 173.823 44 l S
+n 0 22 m 173.823 22 l S
+n 101.307 0 m 101.307 88 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 256.5354 cm
+Q
+q
+1 0 0 1 54.18898 220.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (En CPU, cuando se produce un salto, el PC debe cargar el valor de A. Cuando no se produce, debe) Tj T* (incrementarse para pasar a la siguiente instrucci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 135.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 68.8 Tm /F3 8.2 Tf 11 TL (PC\() Tj T* (    in=A,) Tj T* (    load=pcLoad,) Tj T* (    inc=true,) Tj T* (    reset=reset,) Tj T* (    out=pc) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 112.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (De esta manera, A cumple tambi\351n la funci\363n de almacenar el destino de un salto.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 83.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (12. FLUJO COMPLETO DE UNA C-INSTRUCTION) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 6) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 30 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 4269
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 5) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 715.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 64.5 Tm /F1 10.5 Tf 15 TL -0.142797 Tw (El proceso puede resumirse de la siguiente manera. Primero se identifica que instruction[15]=1. Despu\351s) Tj T* 0 Tw -0.108043 Tw (se decodifican los bits de destino, los bits de control del ALU y los bits de salto. instruction[12] decide si y) Tj T* 0 Tw (ser\341 A o M. D proporciona x. El ALU calcula outM. Dependiendo de d1, d2 y d3, el resultado puede) Tj T* (cargarse en A, D o memoria. Finalmente, las salidas zr y ng, junto con j1..j3, determinan si PC debe) Tj T* (cargar A o simplemente incrementarse.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 686.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (13. EJEMPLO CONCEPTUAL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 633.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Supongamos una instrucci\363n cuya operaci\363n debe calcular D+M y cuyo destino sea M. En primer lugar) Tj T* (instruction[15]=1, por lo que es una C-instruction. Como a=1, el Mux16 selecciona inM para la entrada y) Tj T* (del ALU. Los bits c controlan el ALU para realizar D+M. Como d3=1, writeM se activa. Por tanto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 592.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 24.8 Tm /F3 8.2 Tf 11 TL (outM = D + M) Tj T* (writeM = 1) Tj T* (addressM = A) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 569.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Computer utilizar\341 estas tres se\361ales para realizar la escritura en Memory[A].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 540.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (14. Computer.hdl) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 487.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Despu\351s de construir CPU, el siguiente paso consiste en conectar los componentes principales del) Tj T* (computador Hack. Computer no realiza nuevamente la l\363gica de la CPU ni la l\363gica de Memory; su) Tj T* (funci\363n es interconectar CPU, ROM32K y Memory para formar el computador completo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 464.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (La estructura conceptual es:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 225.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 222.8 Tm /F3 8.2 Tf 11 TL (             +-----------+) Tj T* (             |  ROM32K   |) Tj T* (             | programa  |) Tj T* (             +-----+-----+) Tj T* (                   |) Tj T* (             instruction) Tj T* (                   |) Tj T* (                   v) Tj T* (             +-----------+) Tj T* (             |    CPU    |) Tj T* (             +-----------+) Tj T* (              |   |   |) Tj T* (          outM|   |   |addressM) Tj T* (          writeM  |   |) Tj T* (                  |   v) Tj T* (                  | Memory) Tj T* (                  |   |) Tj T* (                  +<--+) Tj T* (                  inM) Tj T*  T* (             CPU pc ---> ROM32K address) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 196.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (15. ROM32K Y CPU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 158.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL -0.104157 Tw (ROM32K contiene las instrucciones del programa. La CPU genera pc, que funciona como direcci\363n de la) Tj T* 0 Tw (instrucci\363n que debe obtenerse. Por tanto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 106.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 35.8 Tm /F3 8.2 Tf 11 TL (ROM32K\() Tj T* (    address=pc,) Tj T* (    out=instruction) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 53.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (La salida instruction de ROM32K se conecta directamente a la entrada instruction de CPU. Esto crea el) Tj T* (ciclo fundamental de ejecuci\363n: el PC determina qu\351 instrucci\363n se lee, la CPU ejecuta esa instrucci\363n y) Tj T* (calcula el siguiente PC.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 7) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 33 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 4049
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 6) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 773.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (16. MEMORY Y CPU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 735.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (CPU tambi\351n necesita comunicarse con Memory. Cuando una instrucci\363n utiliza M, la CPU necesita) Tj T* (conocer el contenido almacenado en la direcci\363n A. Ese dato llega mediante inM.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 57.8 Tm /F3 8.2 Tf 11 TL (Memory\() Tj T* (    in=outM,) Tj T* (    load=writeM,) Tj T* (    address=addressM,) Tj T* (    out=inM) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 608.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (La conexi\363n tiene una interpretaci\363n directa: outM es el dato que CPU quiere escribir, writeM indica si) Tj T* (efectivamente debe escribir y addressM indica en qu\351 direcci\363n. Por otro lado, out de Memory se) Tj T* (convierte en inM para que la CPU pueda leer memoria.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 579.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (17. CONEXI\323N COMPLETA DE COMPUTER) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 541.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (La construcci\363n de Computer consiste entonces en conectar los tres componentes de acuerdo con el) Tj T* (flujo de informaci\363n:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 302.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 12 222.8 Tm /F3 8.2 Tf 11 TL (ROM32K\() Tj T* (    address=pc,) Tj T* (    out=instruction) Tj T* (\);) Tj T*  T* (Memory\() Tj T* (    in=outM,) Tj T* (    load=writeM,) Tj T* (    address=addressM,) Tj T* (    out=inM) Tj T* (\);) Tj T*  T* (CPU\() Tj T* (    inM=inM,) Tj T* (    instruction=instruction,) Tj T* (    reset=reset,) Tj T* (    outM=outM,) Tj T* (    writeM=writeM,) Tj T* (    addressM=addressM,) Tj T* (    pc=pc) Tj T* (\);) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 279.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Las se\361ales internas inM, outM, writeM, addressM, instruction y pc sirven como puentes entre los chips.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 250.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (18. CICLO COMPLETO DEL COMPUTADOR) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 227.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10.5 Tf 15 TL (Con todos los componentes conectados, el funcionamiento puede seguirse paso a paso.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 146.0973 65.53543 cm
+q
+.827451 .827451 .827451 rg
+n 0 154 303.081 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 140 Tm (Paso) Tj T* ET
+BT 1 0 0 1 39.51 140 Tm (Proceso) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 118 Tm (1) Tj T* ET
+BT 1 0 0 1 39.51 118 Tm (PC contiene la direcci\363n de la instrucci\363n actual.) Tj T* ET
+BT 1 0 0 1 6 96 Tm (2) Tj T* ET
+BT 1 0 0 1 39.51 96 Tm (ROM32K utiliza PC como address y entrega instruction.) Tj T* ET
+BT 1 0 0 1 6 74 Tm (3) Tj T* ET
+BT 1 0 0 1 39.51 74 Tm (CPU recibe instruction.) Tj T* ET
+BT 1 0 0 1 6 52 Tm (4) Tj T* ET
+BT 1 0 0 1 39.51 52 Tm (CPU puede leer Memory mediante inM si la instrucci\363n utiliza M.) Tj T* ET
+BT 1 0 0 1 6 30 Tm (5) Tj T* ET
+BT 1 0 0 1 39.51 30 Tm (CPU ejecuta la operaci\363n mediante A, D y ALU.) Tj T* ET
+BT 1 0 0 1 6 8 Tm (6) Tj T* ET
+BT 1 0 0 1 39.51 8 Tm (Si dest=M, CPU produce outM y writeM=1.) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 154 m 303.081 154 l S
+n 0 0 m 0 154 l S
+n 303.081 0 m 303.081 154 l S
+n 0 0 m 303.081 0 l S
+n 0 132 m 303.081 132 l S
+n 0 110 m 303.081 110 l S
+n 0 88 m 303.081 88 l S
+n 0 66 m 303.081 66 l S
+n 0 44 m 303.081 44 l S
+n 0 22 m 303.081 22 l S
+n 33.51 0 m 33.51 154 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 8) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/Contents 35 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 36 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 5948
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 7) Tj T* ET
+Q
+q
+1 0 0 1 146.0973 702.5354 cm
+q
+.827451 .827451 .827451 rg
+n 0 88 303.081 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 74 Tm (Paso) Tj T* ET
+BT 1 0 0 1 39.51 74 Tm (Proceso) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 52 Tm (7) Tj T* ET
+BT 1 0 0 1 39.51 52 Tm (Memory utiliza addressM para determinar d\363nde escribir.) Tj T* ET
+BT 1 0 0 1 6 30 Tm (8) Tj T* ET
+BT 1 0 0 1 39.51 30 Tm (CPU determina el siguiente PC mediante inc o salto.) Tj T* ET
+BT 1 0 0 1 6 8 Tm (9) Tj T* ET
+BT 1 0 0 1 39.51 8 Tm (El proceso vuelve a comenzar con la nueva instrucci\363n.) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 88 m 303.081 88 l S
+n 0 66 m 0 88 l S
+n 0 0 m 0 66 l S
+n 303.081 66 m 303.081 88 l S
+n 303.081 0 m 303.081 66 l S
+n 0 0 m 303.081 0 l S
+n 0 66 m 303.081 66 l S
+n 33.51 66 m 33.51 88 l S
+n 0 44 m 303.081 44 l S
+n 0 22 m 303.081 22 l S
+n 33.51 0 m 33.51 66 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 694.5354 cm
+Q
+q
+1 0 0 1 54.18898 658.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (Este proceso forma el ciclo b\341sico fetch-decode-execute: obtener la instrucci\363n, interpretarla y) Tj T* (ejecutarla.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 629.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (19. RELACI\323N ENTRE MEMORY, CPU Y COMPUTER) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 576.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (La construcci\363n de los tres chips puede verse como una progresi\363n. Memory resuelve el acceso a) Tj T* (diferentes dispositivos utilizando una direcci\363n global. CPU utiliza los bits de instruction para generar) Tj T* (se\361ales de control y ejecutar operaciones. Finalmente, Computer conecta ambos junto con ROM32K.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 97.3308 480.5354 cm
+q
+.827451 .827451 .827451 rg
+n 0 88 400.614 -22 re f*
+0 0 0 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 74 Tm (Chip) Tj T* ET
+BT 1 0 0 1 72.018 74 Tm (Problema que resuelve) Tj T* ET
+BT /F1 9 Tf 12 TL ET
+BT 1 0 0 1 6 52 Tm (Memory.hdl) Tj T* ET
+BT 1 0 0 1 72.018 52 Tm (\277A qu\351 dispositivo de memoria se accede y qu\351 dato debe entrar o salir?) Tj T* ET
+BT 1 0 0 1 6 30 Tm (CPU.hdl) Tj T* ET
+BT 1 0 0 1 72.018 30 Tm (\277Qu\351 operaci\363n indica la instrucci\363n y qu\351 deben hacer A, D, ALU y PC?) Tj T* ET
+BT 1 0 0 1 6 8 Tm (Computer.hdl) Tj T* ET
+BT 1 0 0 1 72.018 8 Tm (\277C\363mo se conectan CPU, ROM y Memory para formar el computador completo?) Tj T* ET
+q
+1 J
+1 j
+.501961 .501961 .501961 RG
+.5 w
+n 0 88 m 400.614 88 l S
+n 0 0 m 400.614 0 l S
+n 0 0 m 0 88 l S
+n 400.614 0 m 400.614 88 l S
+n 0 66 m 400.614 66 l S
+n 0 44 m 400.614 44 l S
+n 0 22 m 400.614 22 l S
+n 66.018 0 m 66.018 88 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 472.5354 cm
+Q
+q
+1 0 0 1 54.18898 443.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (20. DIFICULTADES Y PUNTOS IMPORTANTES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 390.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Uno de los puntos que requiere mayor cuidado en CPU es no confundir los diferentes bits de instruction.) Tj T* (instruction[12] controla la selecci\363n A/M del ALU, instruction[5] controla el destino A, instruction[4]) Tj T* (controla el destino D, instruction[3] controla el destino M y instruction[2..0] controlan los saltos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 337.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Otro punto importante es la diferencia entre A e inM. A es el contenido del registro A y adem\341s) Tj T* (representa la direcci\363n que se env\355a a Memory. inM, en cambio, es el contenido de Memory en esa) Tj T* (direcci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 284.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Tambi\351n es importante no duplicar conexiones de una misma salida del ALU. El resultado debe tener) Tj T* (una \372nica salida interna, por ejemplo outM, y desde ella alimentar tanto el destino D como el destino A) Tj T* (cuando corresponda.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 246.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (En el PC tambi\351n debe respetarse la prioridad de las se\361ales. reset no debe competir con load; reset) Tj T* (debe tener prioridad. Cuando no hay salto, el PC se incrementa normalmente.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 217.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 14 Tf 17 TL (21. CONCLUSI\323N) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 164.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Para construir CPU.hdl primero se identificaron las partes de una C-instruction y se tradujeron sus bits a) Tj T* (se\361ales de control. Despu\351s se conectaron los registros A y D, el Mux que selecciona A o M, el ALU, la) Tj T* (se\361al writeM y finalmente la l\363gica de saltos y el PC.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 111.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (Una vez terminada CPU, Computer.hdl se obtiene conectando CPU con ROM32K y Memory. ROM32K) Tj T* -0.118566 Tw (entrega la instrucci\363n determinada por pc; CPU interpreta y ejecuta esa instrucci\363n; Memory proporciona) Tj T* 0 Tw (los datos solicitados o recibe los datos que CPU desea escribir.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 58.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (De esta manera, CPU y Computer siguen la misma idea utilizada anteriormente en Memory: primero se) Tj T* -0.123412 Tw (analiza qu\351 representa cada se\361al, despu\351s se determina qu\351 componente debe procesarla y finalmente) Tj T* 0 Tw (se conectan los componentes mediante las se\361ales de control correspondientes. El resultado es un) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 194.9978 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 9) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/Contents 38 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 15 0 R
+/F1-0 39 0 R
+/F2 17 0 R
+/F3 18 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 680
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 194.9978 31.1811 Tm (Organizaci\363n de computadores \227 Nand2Tetris | P\341gina 8) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 760.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.5 Tm /F1 10.5 Tf 15 TL (sistema en el que cada chip tiene una responsabilidad espec\355fica, pero todos trabajan conjuntamente) Tj T* (para ejecutar un programa Hack.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 26.88976 595.2756 20 re
+f*
+0 0 0 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 192.7738 31.88976 Tm
+(Organizaci\363n de computadores \227 Nand2Tetris \174 P\341gina 10) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+39 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 40
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000177 00000 n 
+0000000226 00000 n 
+0000000479 00000 n 
+0000006607 00000 n 
+0000006714 00000 n 
+0000006821 00000 n 
+0000006933 00000 n 
+0000007038 00000 n 
+0000007294 00000 n 
+0000014529 00000 n 
+0000014637 00000 n 
+0000014896 00000 n 
+0000020697 00000 n 
+0000020805 00000 n 
+0000020913 00000 n 
+0000021026 00000 n 
+0000021132 00000 n 
+0000021391 00000 n 
+0000026140 00000 n 
+0000026248 00000 n 
+0000026507 00000 n 
+0000030839 00000 n 
+0000030947 00000 n 
+0000031206 00000 n 
+0000035869 00000 n 
+0000035977 00000 n 
+0000036236 00000 n 
+0000040558 00000 n 
+0000040666 00000 n 
+0000040925 00000 n 
+0000045027 00000 n 
+0000045135 00000 n 
+0000045394 00000 n 
+0000051395 00000 n 
+0000051503 00000 n 
+0000051762 00000 n 
+0000052494 00000 n 
+trailer
+<<
+/Size 40
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+52602
+%%EOF

@@ -1,0 +1,63 @@
+// Obstaculo.jack - Una sola clase para los 4 tipos de obstáculo, especializada por datos.
+// El tipo decide el largo y la velocidad, no hay una clase por tipo.
+// Autor: Sofía Marín Bustamante 
+
+class Obstaculo {
+    field int tipo, carril, colIzq, colAnt, largo, velocidad;
+    field boolean activo;
+
+    // crea un obstáculo de tipo t (0 cono, 1 camión, 2 moto, 3 moneda) con su celda izquierda en col
+    constructor Obstaculo new(int t, int carr, int col) {
+        let tipo = t;
+        let carril = carr;
+        let colIzq = col;
+        let colAnt = col;
+        let activo = true;
+        // por defecto mide 1 celda y avanza 1 celda por paso (cono y moneda)
+        let largo = 1;
+        let velocidad = 1;
+        if (tipo = 1) { let largo = 3; }      // camión
+        if (tipo = 2) { let velocidad = 2; }  // moto
+        return this;
+    }
+
+    // libera la memoria del obstáculo
+    method void dispose() {
+        do Memory.deAlloc(this);
+        return;
+    }
+
+    // guarda la columna anterior y avanza a la izquierda según su velocidad
+    method void mover() {
+        let colAnt = colIzq;
+        let colIzq = colIzq - velocidad;
+        return;
+    }
+
+    // lo marca para eliminarlo (después de un choque o al salir de la pantalla)
+    method void desactivar() {
+        let activo = false;
+        return;
+    }
+
+    // true si ocupa la columna col (ocupa de colIzq hasta colIzq + largo - 1)
+    method boolean ocupa(int col) {
+        return (col > (colIzq - 1)) & (col < (colIzq + largo));
+    }
+
+    // true si en su último movimiento pasó por la columna col: colIzq <= col <= colAnt + largo - 1
+    method boolean pasoPor(int col) {
+        return (colIzq < (col + 1)) & (col < (colAnt + largo));
+    }
+
+    // true si ya salió completo por la izquierda (colIzq + largo - 1 < 0)
+    method boolean salio() {
+        return (colIzq + largo) < 1;
+    }
+
+    method int getTipo() { return tipo; }
+    method int getCarril() { return carril; }
+    method int getColIzq() { return colIzq; }
+    method int getLargo() { return largo; }
+    method boolean isActivo() { return activo; }
+}

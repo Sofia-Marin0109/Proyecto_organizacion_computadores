@@ -1,0 +1,203 @@
+// Vista.jack - Presentación: sprites, dibujo de la vía, de los obstáculos y textos en pantalla.
+// Solo lee el estado de la carrera, no lo cambia.
+// Autor: Martín Quijano Hoyos
+
+class Vista {
+    field Array sprites;
+    field Array sprCarro, sprBorde, sprLinea;
+
+    // crea todos los sprites una sola vez para todas las partidas
+    constructor Vista new() {
+        do crearSpritesObstaculos();
+        do crearSpritesVia();
+        return this;
+    }
+
+    // libera los sprites y la vista
+    method void dispose() {
+        var int tipo;
+        var Array s;
+        let tipo = 0;
+        while (tipo < 4) {
+            let s = sprites[tipo];
+            do s.dispose();
+            let tipo = tipo + 1;
+        }
+        do sprites.dispose();
+        do sprCarro.dispose();
+        do sprBorde.dispose();
+        do sprLinea.dispose();
+        do Memory.deAlloc(this);
+        return;
+    }
+
+    // sprites de 16 palabras de los obstáculos; sprites[tipo] es el dibujo de ese tipo
+    method void crearSpritesObstaculos() {
+        var Array s;
+        let sprites = Array.new(4);
+        let s = Array.new(16);
+        let s[0] = 384; let s[1] = 384; let s[2] = 960; let s[3] = 960;
+        let s[4] = 1056; let s[5] = 1056; let s[6] = 4080; let s[7] = 4080;
+        let s[8] = 8184; let s[9] = 6168; let s[10] = 14364; let s[11] = 16380;
+        let s[12] = 32766; let s[13] = -1; let s[14] = -1; let s[15] = 0;
+        let sprites[0] = s;
+        let s = Array.new(16);
+        let s[0] = 0; let s[1] = -1; let s[2] = -1; let s[3] = -16381;
+        let s[4] = -16381; let s[5] = -8197; let s[6] = -8197; let s[7] = -16381;
+        let s[8] = -16381; let s[9] = -1; let s[10] = -1; let s[11] = 0;
+        let s[12] = 14364; let s[13] = 31806; let s[14] = 14364; let s[15] = 0;
+        let sprites[1] = s;
+        let s = Array.new(16);
+        let s[0] = 0; let s[1] = 0; let s[2] = 0; let s[3] = 3072;
+        let s[4] = 512; let s[5] = 496; let s[6] = 1016; let s[7] = 4092;
+        let s[8] = 7694; let s[9] = 4370; let s[10] = 8353; let s[11] = 8353;
+        let s[12] = 4370; let s[13] = 3596; let s[14] = 0; let s[15] = 0;
+        let sprites[2] = s;
+        let s = Array.new(16);
+        let s[0] = 0; let s[1] = 2016; let s[2] = 8184; let s[3] = 14364;
+        let s[4] = 28686; let s[5] = 24966; let s[6] = -15421; let s[7] = -14365;
+        let s[8] = -14365; let s[9] = -15421; let s[10] = 24966; let s[11] = 28686;
+        let s[12] = 14364; let s[13] = 8184; let s[14] = 2016; let s[15] = 0;
+        let sprites[3] = s;
+        return;
+    }
+
+    // sprites del carro, del borde de la vía y de las líneas divisorias
+    method void crearSpritesVia() {
+        let sprCarro = Array.new(16);
+        let sprCarro[0] = 0; let sprCarro[1] = 0; let sprCarro[2] = 2016; let sprCarro[3] = 2192;
+        let sprCarro[4] = 4232; let sprCarro[5] = 16380; let sprCarro[6] = 32766; let sprCarro[7] = -1;
+        let sprCarro[8] = -1; let sprCarro[9] = -1; let sprCarro[10] = 12300; let sprCarro[11] = 30750;
+        let sprCarro[12] = 30750; let sprCarro[13] = 12300; let sprCarro[14] = 0; let sprCarro[15] = 0;
+        let sprBorde = Array.new(16);
+        let sprBorde[0] = 0; let sprBorde[1] = 0; let sprBorde[2] = 0; let sprBorde[3] = 0;
+        let sprBorde[4] = 0; let sprBorde[5] = 0; let sprBorde[6] = -1; let sprBorde[7] = -1;
+        let sprBorde[8] = -1; let sprBorde[9] = -1; let sprBorde[10] = 0; let sprBorde[11] = 0;
+        let sprBorde[12] = 0; let sprBorde[13] = 0; let sprBorde[14] = 0; let sprBorde[15] = 0;
+        let sprLinea = Array.new(16);
+        let sprLinea[0] = 0; let sprLinea[1] = 0; let sprLinea[2] = 0; let sprLinea[3] = 0;
+        let sprLinea[4] = 0; let sprLinea[5] = 0; let sprLinea[6] = 0; let sprLinea[7] = -1;
+        let sprLinea[8] = -1; let sprLinea[9] = 0; let sprLinea[10] = 0; let sprLinea[11] = 0;
+        let sprLinea[12] = 0; let sprLinea[13] = 0; let sprLinea[14] = 0; let sprLinea[15] = 0;
+        return;
+    }
+
+    // pantalla inicial con instrucciones y las 3 distancias que se pueden elegir
+    method void mostrarMenu() {
+        do Screen.clearScreen();
+        do escribir(2, 20, "CARRERA DE TRES CARRILES");
+        do escribir(5, 4, "Esquiva conos, camiones y motos cambiando de carril.");
+        do escribir(6, 4, "Cada choque quita una vida (empiezas con 3).");
+        do escribir(7, 4, "Cada paso suma 1 punto y cada moneda suma 10.");
+        do escribir(9, 4, "Flechas arriba/abajo: cambiar de carril   P: pausa");
+        do escribir(10, 4, "R: volver a esta pantalla   ESC: salir");
+        do escribir(13, 4, "Elige la distancia a la meta:");
+        do escribir(15, 8, "1: corta (100 pasos)");
+        do escribir(16, 8, "2: media (200 pasos)");
+        do escribir(17, 8, "3: larga (300 pasos)");
+        do escribir(19, 8, "ESC: salir del juego");
+        return;
+    }
+
+    // dibuja la vía al empezar una carrera: bordes (filas 4 y 10), líneas (6 y 8) y textos fijos
+    method void dibujarVia(Carrera carrera) {
+        var int col;
+        do Screen.clearScreen();
+        let col = 0;
+        while (col < 32) {
+            do Grafico.dibujarCelda(4, col, sprBorde);
+            do Grafico.dibujarCelda(10, col, sprBorde);
+            // las líneas divisorias van solo en columnas pares para que se vean punteadas
+            if ((col & 1) = 0) {
+                do Grafico.dibujarCelda(6, col, sprLinea);
+                do Grafico.dibujarCelda(8, col, sprLinea);
+            }
+            let col = col + 1;
+        }
+        do escribir(1, 2, "Vidas: ");
+        do escribir(1, 14, "Puntaje: ");
+        do escribir(1, 32, "Pasos: ");
+        do escribir(1, 48, "Meta: ");
+        do Output.printInt(carrera.meta());
+        do escribir(21, 2, "Flechas: carril   P: pausa   R: menu   ESC: salir");
+        return;
+    }
+
+    // actualiza los números del marcador (los textos fijos ya se escribieron en dibujarVia)
+    method void dibujarMarcador(Carrera carrera) {
+        do Output.moveCursor(1, 9);
+        do Output.printInt(carrera.vidas());
+        do Output.moveCursor(1, 23);
+        do Output.printInt(carrera.puntaje());
+        do Output.moveCursor(1, 39);
+        do Output.printInt(carrera.progreso());
+        return;
+    }
+
+    // dibuja (dibujar = true) o borra (dibujar = false) el carro y todos los obstáculos
+    method void pintarEntidades(Carrera carrera, boolean dibujar) {
+        var int i, fila;
+        let i = 0;
+        while (i < carrera.cantidad()) {
+            do pintarObstaculo(carrera.obstaculo(i), dibujar);
+            let i = i + 1;
+        }
+        let fila = filaCarril(carrera.carrilCarro());
+        if (dibujar) { do Grafico.dibujarCelda(fila, 2, sprCarro); }
+        else { do Grafico.borrarCelda(fila, 2); }
+        return;
+    }
+
+    // dibuja o borra las celdas de un obstáculo que están dentro de la pantalla (columnas 0 a 31)
+    method void pintarObstaculo(Obstaculo obs, boolean dibujar) {
+        var int fila, col, fin;
+        let fila = filaCarril(obs.getCarril());
+        let col = obs.getColIzq();
+        let fin = col + obs.getLargo();
+        while (col < fin) {
+            if ((col > -1) & (col < 32)) {
+                if (dibujar) { do Grafico.dibujarCelda(fila, col, sprites[obs.getTipo()]); }
+                else { do Grafico.borrarCelda(fila, col); }
+            }
+            let col = col + 1;
+        }
+        return;
+    }
+
+    // mueve las líneas divisorias una celda a la izquierda para dar sensación de movimiento
+    method void animarLineas() {
+        do Grafico.desplazarFila(6);
+        do Grafico.desplazarFila(8);
+        return;
+    }
+
+    // muestra u oculta el aviso de pausa en la zona de mensajes
+    method void mostrarPausa(boolean pausa) {
+        if (pausa) { do escribir(17, 29, "PAUSA"); }
+        else { do escribir(17, 29, "     "); }
+        return;
+    }
+
+    // mensaje final con el resultado y el puntaje, debajo de la vía para no taparla
+    method void mostrarFin(Carrera carrera) {
+        if (carrera.estado() = 2) { do escribir(17, 18, "VICTORIA! Llegaste a la meta"); }
+        else { do escribir(17, 18, "DERROTA! Te quedaste sin vidas"); }
+        do escribir(18, 18, "Puntaje final: ");
+        do Output.printInt(carrera.puntaje());
+        do escribir(19, 18, "R: volver al menu   ESC: salir");
+        return;
+    }
+
+    // carril 0, 1 y 2 van en las filas de celdas 5, 7 y 9
+    method int filaCarril(int carril) {
+        return carril + carril + 5;
+    }
+
+    // escribe un texto en (fila, col) y libera el String para no llenar el heap
+    method void escribir(int fila, int col, String texto) {
+        do Output.moveCursor(fila, col);
+        do Output.printString(texto);
+        do texto.dispose();
+        return;
+    }
+}

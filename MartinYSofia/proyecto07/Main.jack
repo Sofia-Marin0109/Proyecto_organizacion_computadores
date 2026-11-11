@@ -1,0 +1,13 @@
+// Main.jack - Punto de entrada del juego.
+// Autor: Sofía Marín Bustamante 
+
+class Main {
+    // crea el juego, lo ejecuta y lo libera
+    function void main() {
+        var Juego juego;
+        let juego = Juego.new();
+        do juego.ejecutar();
+        do juego.dispose();
+        return;
+    }
+}

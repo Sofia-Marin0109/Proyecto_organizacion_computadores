@@ -1,0 +1,37 @@
+@100
+D=A
+@ptr1
+M=D
+@200
+D=A
+@ptr2
+M=D
+@10
+D=A
+@n
+M=D
+(VEC_ADD)
+    @n
+    D=M
+    @END
+    D;JEQ
+    @ptr1
+    A=M
+    D=M   
+    @ptr2
+    A=M
+    D=M+D   // error
+    @ptr1
+    A=M
+    M=D     
+    @ptr1
+    M=M+1
+    @ptr2
+    M=M+1
+    @n
+    M=M-1
+    @VEC_ADD
+    0;JMP
+(END)
+    @END
+    0;JMP

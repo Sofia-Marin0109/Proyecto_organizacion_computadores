@@ -1,0 +1,27 @@
+// Aleatorio.vm - Generador pseudoaleatorio x = 5x + 3 con aritmética de 16 bits (bono +0.20)
+// Autor: Martín Quijano Hoyos
+
+// guarda la semilla en el estado del generador: x = s
+function Aleatorio.semilla 0
+push argument 0
+pop static 0
+push constant 0
+return
+
+// calcula x = 5x + 3 con sumas (2x, luego 4x, luego 4x + x) y retorna el nuevo x
+// local 0 = 2x
+function Aleatorio.siguiente 1
+push static 0
+push static 0
+add
+pop local 0
+push local 0
+push local 0
+add
+push static 0
+add
+push constant 3
+add
+pop static 0
+push static 0
+return
