@@ -12,8 +12,8 @@
 # Compilación y ejecución
 
 1. Compilar la carpeta con el compilador de las herramientas del curso:
-   - Windows: `tools/JackCompiler.bat RUTA/proyecto4`
-   - macOS / Linux: `tools/JackCompiler.sh RUTA/proyecto4`
+   - Windows: `tools/JackCompiler.bat RUTA/proyecto07`
+   - macOS / Linux: `tools/JackCompiler.sh RUTA/proyecto07`
 2. Abrir el VM Emulator (`tools/VMEmulator.bat` o `tools/VMEmulator.sh`).
 3. «File → Load Program» y elegir la carpeta `proyecto07` (sin agregar los `.vm` del sistema operativo: el emulador usa los suyos).
 4. Seleccionar «No animation», poner la velocidad al máximo y presionar «Run».
