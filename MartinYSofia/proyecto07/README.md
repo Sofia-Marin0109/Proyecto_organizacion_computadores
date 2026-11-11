@@ -15,7 +15,7 @@
    - Windows: `tools/JackCompiler.bat RUTA/proyecto4`
    - macOS / Linux: `tools/JackCompiler.sh RUTA/proyecto4`
 2. Abrir el VM Emulator (`tools/VMEmulator.bat` o `tools/VMEmulator.sh`).
-3. «File → Load Program» y elegir la carpeta `proyecto4` (sin agregar los `.vm` del sistema operativo: el emulador usa los suyos).
+3. «File → Load Program» y elegir la carpeta `proyecto07` (sin agregar los `.vm` del sistema operativo: el emulador usa los suyos).
 4. Seleccionar «No animation», poner la velocidad al máximo y presionar «Run».
 5. Hacer clic en la pantalla del emulador para que reciba las teclas.
 
@@ -23,7 +23,7 @@ Las pruebas públicas se corren con:
 
 ```
 cd material-apoyo/pruebas
-./correr_pruebas.sh RUTA/proyecto4 RUTA/nand2tetris/tools
+./correr_pruebas.sh RUTA/proyecto07 RUTA/nand2tetris/tools
 ```
 
 # Controles
